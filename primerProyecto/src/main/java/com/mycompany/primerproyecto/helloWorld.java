@@ -12,7 +12,7 @@ package com.mycompany.primerproyecto;
 public class helloWorld {
    public static void main (String [] arg){
        
-    System.out.println("hola mundo");
+    System.out.println("hola mundoft");
 }
     
 }
