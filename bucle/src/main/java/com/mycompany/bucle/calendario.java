@@ -11,14 +11,12 @@ package com.mycompany.bucle;
  */
 public class calendario {
     public static void main(String[] args ){
-        int c = 1;
-        int x = 0;
+        int c = 1, x = 0;
         while(c <=30){
         if (x == 7){
             x = 0;
         }    
-        
-        switch(x)
+          switch(x)
         {
             case 0:
             {

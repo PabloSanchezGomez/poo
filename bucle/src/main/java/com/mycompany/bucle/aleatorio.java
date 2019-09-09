@@ -20,7 +20,7 @@ public class aleatorio {
                         }
                         else{
                             System.out.println("El " + aleatorio + " es impar");
-                            suma = suma + aleatorio; 
+                            suma += aleatorio; 
                         }
         }
         System.out.println(suma);
