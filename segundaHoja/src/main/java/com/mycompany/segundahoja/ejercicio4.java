@@ -15,11 +15,11 @@ public class ejercicio4 {
         int n = 1;
         array = new int [5][6];
         for(int i = 0;i<5;i++){
-            System.out.println("\n");
+            System.out.println();
             for(int j = 0;j<6;j++){
                 array[i][j] = n;
                 n++;
-                System.out.println(array[i][j]);
+                System.out.print(" " + array[i][j]);
             }
         }
         
