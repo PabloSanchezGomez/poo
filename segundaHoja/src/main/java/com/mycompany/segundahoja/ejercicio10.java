@@ -18,7 +18,7 @@ public class ejercicio10 {
                 
                 
             }
-            for(int j = i-9;j=10;j--){
+            for(int j = i-9;j==10;j--){
                 System.out.print("*");
             
         }
