@@ -10,5 +10,16 @@ package com.mycompany.segundahoja;
  * @author ORDENADOR PABLO
  */
 public class ejercicio9 {
+        public static void main(String [] arg){
+        for(int i = 1;i<=10;i++){
+            System.out.println();
+            for(int k = 0;k<=9;k++){
+                
+            for(int j = i;j!=0;j--){
+                System.out.print("*");
+            }
+            }
+        }
+    }
     
 }
