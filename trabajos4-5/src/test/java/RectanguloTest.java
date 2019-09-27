@@ -30,6 +30,7 @@ public class RectanguloTest {
     @org.junit.jupiter.api.AfterEach
     public void tearDown() throws Exception {
     }
+    @Test
     public void testBase(){
         assertEquals("1",1,r.base());
     }
