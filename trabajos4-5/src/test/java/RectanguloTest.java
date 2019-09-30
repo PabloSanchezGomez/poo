@@ -9,10 +9,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class RectanguloTest {
-    Rectangulo r;
+    Rectangulo r,r2;
         
     public RectanguloTest() {
         r = new Rectangulo();
+        r = new Rectangulo(2,5);
     }
 
     @org.junit.jupiter.api.BeforeAll
@@ -33,6 +34,10 @@ public class RectanguloTest {
     @Test
     public void testBase(){
         assertEquals("1",1,r.base());
+    }
+    @Test
+    public void testBase2(){
+        assertEquals("10",10,r2.base());
     }
 
     private void assertEquals(String string, int i, int base) {
